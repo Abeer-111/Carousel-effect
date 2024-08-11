@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+}
+.container{
+    margin: auto;
+    width: 600px;
+    height: 350px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-size: cover;
+    animation: carasoel 8s linear infinite;
+}
+
+@keyframes carasoel {
+    0%{
+        background-image: url(https://wallpapercave.com/wp/WIKDCoh.jpg);
+    }
+
+    25%{
+        background-image: url(https://th.bing.com/th/id/R.cc3b1567038ac9c1461b9937b15739df?rik=0xJs9ry1GMxkoQ&riu=http%3a%2f%2fhdwpro.com%2fwp-content%2fuploads%2f2016%2f03%2fBeautiful-Scenery-Wallpaper.jpg&ehk=5wIq5yaWy2kVOGPjKmr3N5Fn%2fKwqKWWVpHTFewVQX6E%3d&risl=&pid=ImgRaw&r=0);
+    }
+
+    50%{
+        background-image: url(https://th.bing.com/th/id/R.65321379d1273f6aaf954b3c3a6d02c7?rik=TP0dudlG0gvYOQ&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f7%2f7%2fc%2f257695.jpg&ehk=HCieNDnPqrvxO46ZaIbXcjwryWtQ9G5GEiVs3wmm48o%3d&risl=&pid=ImgRaw&r=0);
+    }
+
+    100%{
+        background-image: url(https://www.goodfreephotos.com/albums/other-landscapes/scenery-with-lake-reflections-with-clouds-in-the-sky.jpg);
+    }
+}
